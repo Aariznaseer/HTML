@@ -7,24 +7,25 @@
 </head>
 <body>
     <form action="/action"> 
-        <h3>Registration Form</h3>
+        <div><h3>Registration Form</h3>
         <input type="text" placeholder="First name" name="fname">
         <input type="text" placeholder="Last name" name="lname">
-    </form>
-    <form>
+        </div>
+    <div>
         <label for="gen">Please select the Gender</label>
         <select name="gen" id="gen">
-            <option value="gen" >Male</option>
-            <option value="gen">Female</option>
-            <option value="gen">Others</option>
+            <option value="m" >Male</option>
+            <option value="f">Female</option>
+            <option value="o">Others</option>
         </select>
-    </form>
-    <form>
+    </div>
+    <div>
         <label for="checkbox">Do you agree to all terms of service?</label>
         <input type="checkbox" name="checkbox" id="checkbox">Yes,i agree
-    </form>
-    <form>
+    </div>
+    <div>
         <button>Register</button>
+        </div>
     </form>
 </body>
 </html>
